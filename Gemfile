@@ -4,4 +4,6 @@ source "https://rubygems.org"
 gemspec
 
 gem "rake", "~> 12.0"
-gem "rspec", "~> 3.0"
+gem "rspec", "~> 3.8"
+
+gem "ruby-lsp", "~> 0.17.12"

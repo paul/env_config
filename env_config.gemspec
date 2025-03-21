@@ -37,7 +37,8 @@ Gem::Specification.new do |spec|
     "--quiet"
   ]
 
-  spec.add_dependency "dry-core", "~> 0.1"
+  spec.add_dependency "dry-core", "~> 1.0"
 
   spec.add_development_dependency "rspec", "~> 3.8"
+  spec.metadata["rubygems_mfa_required"] = "true"
 end
